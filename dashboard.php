@@ -43,6 +43,10 @@
     <button class="tablinks" onclick="openCity(event, 'Food')">Food</button>
     <button class="tablinks" onclick="openCity(event, 'Fuel')">Fuel</button>
     <button class="tablinks" onclick="openCity(event, 'AllRecords')">All Records</button>
+    <button class="tablinks" onclick="openCity(event, 'statsg')">Statistics</button>
+    
+
+
 </div>
 
 
@@ -64,6 +68,12 @@
 <div id="AllRecords" class="tabcontent">
     <?php include 'AllRecords.php'; ?>
 </div>
+
+<div id="statsg" class="tabcontent">
+    <?php include 'statsg.php'; ?>
+</div>
+
+
 
 <style>
     #update{
